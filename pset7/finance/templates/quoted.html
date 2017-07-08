@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    
+        <fieldset>
+            <p>
+               <b> Name: </b> {{ name }}
+            </p>
+            <p>
+                <b> Price: </b>{{ price }}
+            </p>
+            <p>
+                <b>Symbol: </b> {{ sym }}
+            </p>
+        </fieldset>
+{% endblock %}
